@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct RemoteLockerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  // 通过 @NSApplicationDelegateAdaptor 使用自定义的 AppDelegate
+  @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+  
+  var body: some Scene {
+    EmptyScene()
+  }
+}
+
+struct EmptyScene: Scene {
+  var body: some Scene {
+    WindowGroup {
+      EmptyView()
     }
+  }
 }

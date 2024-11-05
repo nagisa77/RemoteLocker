@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E18C142CBE929B00861114 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 22E18C132CBE929B00861114 /* FirebaseDatabase */; };
+		22E18C162CBE929B00861114 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 22E18C152CBE929B00861114 /* FirebaseStorage */; };
 		22FA44CF2CBD51C700CDA389 /* RemoteLockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA44CE2CBD51C700CDA389 /* RemoteLockerApp.swift */; };
-		22FA44D12CBD51C700CDA389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA44D02CBD51C700CDA389 /* ContentView.swift */; };
 		22FA44D32CBD51C800CDA389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FA44D22CBD51C800CDA389 /* Assets.xcassets */; };
 		22FA44D62CBD51C800CDA389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FA44D52CBD51C800CDA389 /* Preview Assets.xcassets */; };
+		22FA44DE2CBD533E00CDA389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA44DD2CBD533E00CDA389 /* AppDelegate.swift */; };
+		22FA44E12CBD57F900CDA389 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44E02CBD57F900CDA389 /* FirebaseAuth */; };
+		22FA44E62CBD596800CDA389 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44E52CBD596800CDA389 /* GoogleSignIn */; };
+		22FA44E82CBD596800CDA389 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44E72CBD596800CDA389 /* GoogleSignInSwift */; };
+		22FA44EA2CBD5A4D00CDA389 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44E92CBD5A4D00CDA389 /* FirebaseAnalytics */; };
+		22FA44EC2CBD5A4D00CDA389 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44EB2CBD5A4D00CDA389 /* FirebaseAuthCombine-Community */; };
+		22FA44EE2CBD5A9A00CDA389 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA44ED2CBD5A9A00CDA389 /* FirebaseCore */; };
+		22FA44F52CBD639600CDA389 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22FA44F42CBD639600CDA389 /* GoogleService-Info.plist */; };
+		22FA44F72CBD63D100CDA389 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22FA44F62CBD63D100CDA389 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22FA44CB2CBD51C700CDA389 /* RemoteLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FA44CE2CBD51C700CDA389 /* RemoteLockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLockerApp.swift; sourceTree = "<group>"; };
-		22FA44D02CBD51C700CDA389 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22FA44D22CBD51C800CDA389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22FA44D52CBD51C800CDA389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22FA44D72CBD51C800CDA389 /* RemoteLocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RemoteLocker.entitlements; sourceTree = "<group>"; };
+		22FA44DD2CBD533E00CDA389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FA44F42CBD639600CDA389 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22FA44F62CBD63D100CDA389 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +39,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FA44E82CBD596800CDA389 /* GoogleSignInSwift in Frameworks */,
+				22FA44E12CBD57F900CDA389 /* FirebaseAuth in Frameworks */,
+				22FA44EA2CBD5A4D00CDA389 /* FirebaseAnalytics in Frameworks */,
+				22FA44E62CBD596800CDA389 /* GoogleSignIn in Frameworks */,
+				22FA44EE2CBD5A9A00CDA389 /* FirebaseCore in Frameworks */,
+				22E18C162CBE929B00861114 /* FirebaseStorage in Frameworks */,
+				22E18C142CBE929B00861114 /* FirebaseDatabase in Frameworks */,
+				22FA44EC2CBD5A4D00CDA389 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +72,10 @@
 		22FA44CD2CBD51C700CDA389 /* RemoteLocker */ = {
 			isa = PBXGroup;
 			children = (
+				22FA44F62CBD63D100CDA389 /* Info.plist */,
+				22FA44DD2CBD533E00CDA389 /* AppDelegate.swift */,
+				22FA44F42CBD639600CDA389 /* GoogleService-Info.plist */,
 				22FA44CE2CBD51C700CDA389 /* RemoteLockerApp.swift */,
-				22FA44D02CBD51C700CDA389 /* ContentView.swift */,
 				22FA44D22CBD51C800CDA389 /* Assets.xcassets */,
 				22FA44D72CBD51C800CDA389 /* RemoteLocker.entitlements */,
 				22FA44D42CBD51C800CDA389 /* Preview Content */,
@@ -85,6 +107,16 @@
 			dependencies = (
 			);
 			name = RemoteLocker;
+			packageProductDependencies = (
+				22FA44E02CBD57F900CDA389 /* FirebaseAuth */,
+				22FA44E52CBD596800CDA389 /* GoogleSignIn */,
+				22FA44E72CBD596800CDA389 /* GoogleSignInSwift */,
+				22FA44E92CBD5A4D00CDA389 /* FirebaseAnalytics */,
+				22FA44EB2CBD5A4D00CDA389 /* FirebaseAuthCombine-Community */,
+				22FA44ED2CBD5A9A00CDA389 /* FirebaseCore */,
+				22E18C132CBE929B00861114 /* FirebaseDatabase */,
+				22E18C152CBE929B00861114 /* FirebaseStorage */,
+			);
 			productName = RemoteLocker;
 			productReference = 22FA44CB2CBD51C700CDA389 /* RemoteLocker.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +145,10 @@
 				Base,
 			);
 			mainGroup = 22FA44C22CBD51C700CDA389;
+			packageReferences = (
+				22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				22FA44E42CBD596800CDA389 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 22FA44CC2CBD51C700CDA389 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FA44F72CBD63D100CDA389 /* Info.plist in Resources */,
 				22FA44D62CBD51C800CDA389 /* Preview Assets.xcassets in Resources */,
+				22FA44F52CBD639600CDA389 /* GoogleService-Info.plist in Resources */,
 				22FA44D32CBD51C800CDA389 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FA44D12CBD51C700CDA389 /* ContentView.swift in Sources */,
+				22FA44DE2CBD533E00CDA389 /* AppDelegate.swift in Sources */,
 				22FA44CF2CBD51C700CDA389 /* RemoteLockerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +309,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RemoteLocker/RemoteLocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -279,6 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteLocker/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,6 +328,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tim.RemoteLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -298,6 +340,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RemoteLocker/RemoteLocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -306,6 +350,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteLocker/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +359,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tim.RemoteLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -341,6 +387,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		22FA44E42CBD596800CDA389 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22E18C132CBE929B00861114 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		22E18C152CBE929B00861114 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		22FA44E02CBD57F900CDA389 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		22FA44E52CBD596800CDA389 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44E42CBD596800CDA389 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		22FA44E72CBD596800CDA389 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44E42CBD596800CDA389 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		22FA44E92CBD5A4D00CDA389 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		22FA44EB2CBD5A4D00CDA389 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		22FA44ED2CBD5A9A00CDA389 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA44DF2CBD57F900CDA389 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22FA44C32CBD51C700CDA389 /* Project object */;
 }
